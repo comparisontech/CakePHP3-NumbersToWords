@@ -19,6 +19,8 @@
 		"cakephp/plugin-installer": "*"
 	},
 	"autoload": {
-		"NumbersToWords\\": "src"
+		"psr-4": {
+			"NumbersToWords\\": "src"
+		}
 	}
 }
