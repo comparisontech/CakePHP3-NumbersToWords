@@ -1,7 +1,8 @@
 {
     "name": "davidyell/cakephp-numberstowords",
     "description": "A helper for converting numbers into words",
-    "license": "MIT",
+    "type": "cakephp-plugin",
+	"license": "MIT",
 	"homepage": "https://github.com/davidyell/CakePHP3-NumbersToWords",
 	"keywords": ["cakephp", "numbers", "words", "conversion", "helper"],
     "authors": [
