@@ -4,8 +4,8 @@ A helper for CakePHP3 to convert numbers into words.
 Have you ever wanted to use a number as a css class? Or title items in a loop, but number just look messy? I have, and so I made this quick plugin to solve that problem.
 
 ##Installation
-You can find the plugin listed on Packagist.
-https://packagist.org/packages/davidyell/cakephp-numberstowords
+You can find the plugin listed on Packagist.  
+https://packagist.org/packages/davidyell/numbers_to_words
 
 You can use this to require it into your CakePHP 3 project by adding it to your `composer.json` file.
 
@@ -22,5 +22,12 @@ public $helpers = [
 ];
 ```
 ##Usage
+```php
 <?= $this->NumbersToWords->spell(5); // 'five';?>
+```
 
+##Contribution
+If you would like to add more conversions, please fork and submit a pull request.
+
+##License
+See [LICENSE](LICENSE)
