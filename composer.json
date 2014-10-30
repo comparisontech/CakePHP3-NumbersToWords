@@ -1,5 +1,5 @@
 {
-    "name": "davidyell/cakephp-numberstowords",
+    "name": "davidyell/NumbersToWords",
     "description": "A helper for converting numbers into words",
     "type": "cakephp-plugin",
 	"license": "MIT",
