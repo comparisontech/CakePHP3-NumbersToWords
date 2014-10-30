@@ -19,6 +19,6 @@
 		"cakephp/plugin-installer": "*"
 	},
 	"autoload": {
-		"NumbersToWords\\": "./plugins/NumbersToWords/src"
+		"NumbersToWords\\": "src"
 	}
 }
