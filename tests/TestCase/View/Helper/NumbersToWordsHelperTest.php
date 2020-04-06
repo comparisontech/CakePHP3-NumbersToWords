@@ -114,4 +114,16 @@ class NumbersToWordsHelperTest extends TestCase
         $this->assertEquals('5th', $result);
     }
 
+    /**
+     * Test spelling words which have no numbers
+     *
+     * @return void
+     */
+    public function testSpellingWithNoNumbers()
+    {
+        $result = $this->NumbersToWords->spell('Dave is great!');
+        $expected = 'Dave is great!';
+
+        $this->assertSame($expected, $result);
+    }
 }

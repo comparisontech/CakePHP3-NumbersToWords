@@ -33,7 +33,7 @@ class NumbersToWordsHelper extends Helper
      */
     public function spell($item)
     {
-        $formatter = new NumberFormatter($this->config['locale'], NumberFormatter::SPELLOUT);
+        $formatter = new NumberFormatter($this->getConfig('locale'), NumberFormatter::SPELLOUT);
 
         if (is_int($item)) {
             return $formatter->format($item);
@@ -54,7 +54,7 @@ class NumbersToWordsHelper extends Helper
      */
     public function ordinal($item)
     {
-        $formatter = new NumberFormatter($this->config['locale'], NumberFormatter::ORDINAL);
+        $formatter = new NumberFormatter($this->getConfig('locale'), NumberFormatter::ORDINAL);
 
         if (is_int($item)) {
             return $formatter->format($item);
